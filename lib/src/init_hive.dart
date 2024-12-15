@@ -16,7 +16,5 @@ Future<void> initHive() async {
     for (var i = 1; i <= 3; i++) {
       reminderBox.add(ReminderItem(id: i, title: 'Default Reminder $i'));
     }
-    // notify listeners
-    reminderBox.listenable();
   }
 }
